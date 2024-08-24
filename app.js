@@ -1,19 +1,19 @@
 const express = require('express');
-const bodyParser = require('body-parser');
 const mongoose = require('mongoose');
-const itemRoutes = require('./routes/itemRoutes');
-const dbConfig = require('./config/db');
-
 const app = express();
-app.use(bodyParser.json());
+const bookRouter = require("./routes/book_api");
+const carRouter = require("./routes/car_api");
 
-mongoose.connect(dbConfig.url,{ useNewUrlParser: true, useUnifiedTopology: true })
-    .then(() => console.log("Connted to Monngoose"))
-    .catch(err => console.log("Error occurs" , err));
 
-    app.use('/api/items', itemRoutes);
+app.use("/", bookRouter);
+app.use("/", carRouter);
 
-    const PORT = process.env.PORT || 3000;
-    app.listen(PORT, () => {
-        console.log(`Server running on port ${PORT}`);
-    }) ;
+
+//connect to mongoose
+// mongoose.connect(process.env.MONGODB, {
+//   dbName: "Backend",
+// });
+mongoose.connect('mongodb://localhost:27017/crud')
+app.listen(3000, () => {
+  console.log("Server is listening on port 3000");
+});
