@@ -29,35 +29,14 @@
     "author": "Jane Austen",
     "summary": "A romantic novel that explores the manners, education, and marriage in early 19th-century England."
   }
-```
-    ```json
-    {
-    "title": "Moby Dick",
-    "author": "Herman Melville",
-    "summary": "A thrilling tale of vengeance and obsession asCaptain Ahab hunts the elusive white whale."
-  }
-```
-    ```json
-    {
-    "title": "The Catcher in the Rye",
-    "author": "J.D. Salinger",
-    "summary": "A narrative about teenage angst and alienation as experienced by the protagonist, Holden Caulfield."
-  }
-```
-    ```json
-    {
-    "title": "Brave New World",
-    "author": "Aldous Huxley",
-    "summary": "A futuristic novel that explores a utopian society driven by technology, conditioning, and a caste system."
-  }
-```
-    ```json
+  ```
+  ```json
     {
     "title": "The Hobbit",
     "author": "J.R.R. Tolkien",
     "summary": "A fantasy adventure that follows Bilbo Baggins as he embarks on an epic journey with a group of dwarves."
   }
-```
+    ```
 
 
 ### 2. List All Books
