@@ -6,14 +6,14 @@ const router = express.Router();
 
 //Add a new book route
 router.post("/newbook", async (req, res) => {
-  const { title, author, summary } = req.body;
+  const { title, author, summary, numberofpages } = req.body;
 
   try {
-    if (!title || !author || !summary) {
+    if (!title || !author || !summary || !numberofpages ) {
       return res.status(400).json({ message: "Incomplete book data" });
     }
 
-    const book = new Book({ title, author, summary });
+    const book = new Book({ title, author, summary, numberofpages });
     const savedBook = await book.save();
     res.status(201).json({
       message: "New book added successfully",
