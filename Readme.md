@@ -9,34 +9,7 @@
     "summary": "A story of decadence, idealism, and excess set in the Roaring Twenties."
   }
   ```
-  ```json
-    {
-    "title": "To Kill a Mockingbird",
-    "author": "Harper Lee",
-    "summary": "A gripping, heart-wrenching, and wholly remarkable tale of coming-of-age in a South poisoned by virulent prejudice."
-  }
-  ```
-  ```json
-  {
-    "title": "1984",
-    "author": "George Orwell",
-    "summary": "A dystopian novel set in a totalitarian society ruled by Big Brother, where truth is manipulated and freedom is suppressed."
-  }
-  ```
-  ```json
-   {
-    "title": "Pride and Prejudice",
-    "author": "Jane Austen",
-    "summary": "A romantic novel that explores the manners, education, and marriage in early 19th-century England."
-  }
-  ```
-  ```json
-    {
-    "title": "The Hobbit",
-    "author": "J.R.R. Tolkien",
-    "summary": "A fantasy adventure that follows Bilbo Baggins as he embarks on an epic journey with a group of dwarves."
-  }
-    ```
+  
 
 
 ### 2. List All Books
